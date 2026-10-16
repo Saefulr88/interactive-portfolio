@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin:20px; }
+.container { max-width:1000px; margin:0 auto; }
+.layout { display:flex; gap:20px; }
+.left, .right { background:#f7f7f7; padding:12px; border-radius:6px; }
+.left { flex:1; }
+.right { width:420px; }
+.product { padding:8px; border:1px solid #ddd; margin-bottom:8px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+.product:hover { background:#eef; }
+#cartTable { width:100%; border-collapse:collapse; margin-bottom:8px; }
+#cartTable td, #cartTable th { padding:6px; border-bottom:1px solid #ddd; }
+.summary { display:flex; flex-direction:column; gap:8px; }
+button { padding:8px 12px; cursor:pointer; }
